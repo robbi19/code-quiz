@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8" />
+      <meta Author=" Robbin Collins"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+      <link rel="stylesheet" href="." />
+      <title>The Code Quiz</title>
+      <style data-cursor="cursor">
+      </style>
+  </head>
+  <body>
+    <header>
+    <nav
+     class="navbar.navbar-light bg-light">
+     <a href="">View High Scores</a>
+    </nav>
+  </header>
+  
+    <section id="start-page" class=""quiz_title"" >
+      <h1> The Coding Quiz Challenge</h1>
+      <p>Try to answer the following code-related questions within questions within the limit. Keep in mind that incorrect answers will penalize your score/ time by ten sceonds! "Start Quiz" button to begin the quiz.</p>
+      <button aria-label="start game" id="start-button" class="button">Please Start Quiz Now</button>
+    </section>
+    <section id="quiz-questions" class="hidden quiz-section">
+      <p id="timer">Time: <span id="time-remaining">0</span></p>
+      <h1 id="question">The Quiz Questions</h1>
+      <ul id="choices"></ul>
+      </section>
+      <section id="end" class="quiz-section hidden">
+        <h1 id="end-title">The End of the Quiz</h1>
+        <p id="score-text">Your score is (Drumroll Please): <span id="score">0</span></p>
+        <form id="submit-score">
+          <label for="initials">Enter Your Initials:</label>
+          <input type="text" id="initials">
+          <button type="submit">Submit Here</button>
+          <p id="error-message"></p>
+        </form>
+        <a href="" class="back-button"><i class="fas fa-angle-left" aria-hidden="true"></i>Back to quiz</a>
+      </section>
+      
+        <p id="correct" class="choice-status hidden"><i class="fas fa-check-circle" aria-hidden="true"></i>Correct, Great Job!</p>
+        <p id="wrong" class="choice-status hidden"><i class="fas fa-times-circle" aria-hidden="true"></i>Wrong, Try Again</p>
+
+      </div>
+    </main>
+    <script src= "" type="text/javascript"></script>
+  </body>
+
+</html>
+
