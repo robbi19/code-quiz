@@ -225,7 +225,7 @@ function processInput(event) {
     const score = totalTime;
     const highscoreEntry = getNewHighscoreEntry(initials, score);
     saveHighscoreEntry(highscoreEntry);
-    window.location.href= "./highScores.html";
+    window.location.href= "./highScore.js";
   }
 }
 
