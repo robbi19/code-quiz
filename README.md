@@ -24,8 +24,9 @@ THEN I can save my initials and score
 
 Repo-https://github.com/robbi19/code-quiz
 
-Deploy-
+Deploy- https://robbi19.github.io/code-quiz/
 
-Webpage screenshot-
+Webpage screenshot-<img width="895" alt="Screenshot 2023-05-27 161217" src="https://github.com/robbi19/code-quiz/assets/128949831/37386a59-22ad-45f9-b2f4-4ef7891a00c8">
+
 
 Sources include stack overflow for github help, Youtube for learning array and alot of google for git commands.
